@@ -14,7 +14,7 @@ const app = express();
 
 const allowedOrigins = [
   'http://localhost:3000',
-  'https://mernstack-ashen-one.vercel.app'
+  'https://mernstack-ashen-one.vercel.app',
   'https://mernstack-szijartoferencs-projects.vercel.app/' 
 ];
 
