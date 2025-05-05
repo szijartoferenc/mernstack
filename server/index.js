@@ -12,6 +12,12 @@ dotenv.config();
 
 const app = express();
 
+// CORS beállítás - ide rakd be a frontend domain címét
+app.use(cors({
+  origin: 'https://mernstack-coral-nu.vercel.app/',  // Cseréld le a megfelelő frontend domain-re
+  credentials: true
+}));
+
 app.use(cors());
 app.use(bodyParser.json({extended: true}));
 app.use(bodyParser.urlencoded({extended: true}));
