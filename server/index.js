@@ -12,11 +12,25 @@ dotenv.config();
 
 const app = express();
 
-// CORS beállítás - ide rakd be a frontend domain címét
+const allowedOrigins = [
+  'http://localhost:3000',
+  'https://mernstack-coral-nu.vercel.app',
+  'https://mernstack-ashen-one.vercel.app'
+  'https://mernstack-szijartoferencs-projects.vercel.app/',
+  'https://mernstack-git-main-szijartoferencs-projects.vercel.app/'
+];
+
 app.use(cors({
-  origin: 'https://mernstack-coral-nu.vercel.app/',  // Cseréld le a megfelelő frontend domain-re
+  origin: function(origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
   credentials: true
 }));
+
 
 app.use(bodyParser.json({extended: true}));
 app.use(bodyParser.urlencoded({extended: true}));
