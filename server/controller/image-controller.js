@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 const mongoURI = 'mongodb+srv://user:asdfghjkl@blog-app.kts7f.mongodb.net/?retryWrites=true&w=majority';
 
-const url = 'http://localhost:8000';  // A szerver címe
+const url = 'https://mernstack-server-i3q9.onrender.com';  // A szerver címe
 // Kapcsolódás
 const conn = mongoose.createConnection(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true });
 
