@@ -39,7 +39,8 @@ Ez egy teljes funkcionalitású blog alkalmazás, amely a MERN stack (MongoDB, E
 - **Adatbázis:** MongoDB, Mongoose
 - **Egyéb:** dotenv, cors, concurrently (kliens és szerver egyidejű futtatása)
 
-![image](https://github.com/user-attachments/assets/ac7c3fb2-e8be-467f-8129-8cb96e697ece)
+![image](https://github.com/user-attachments/assets/8bac9c79-c558-48d3-8015-7799d3130a2d)
+
 
 ![image](https://github.com/user-attachments/assets/6136e41d-91bd-4cc9-8f5e-f5420f72abc4)
 
