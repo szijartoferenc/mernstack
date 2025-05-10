@@ -70,7 +70,7 @@ const signupInitialValues = {
 };
 
 const Login = ({ isAuthenticated }) => {
-    const imageURL = '/blog.png';
+    const imageURL = 'blog.png';
     const [account, toggleAccount] = useState('login');
     const [signup, setSignup] = useState(signupInitialValues);
     const [login, setLogin] = useState(loginInitialValues);
