@@ -70,7 +70,7 @@ const signupInitialValues = {
 };
 
 const Login = ({ isAuthenticated }) => {
-    const imageURL = 'https://www.sesta.it/wp-content/uploads/2021/03/logo-blog-sesta-trasparente.png';
+    const imageURL = '/blog.png';
     const [account, toggleAccount] = useState('login');
     const [signup, setSignup] = useState(signupInitialValues);
     const [login, setLogin] = useState(loginInitialValues);
