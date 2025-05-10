@@ -43,6 +43,7 @@ Ez egy teljes funkcionalitású blog alkalmazás, amely a MERN stack (MongoDB, E
 
 
 
-![image](https://github.com/user-attachments/assets/6136e41d-91bd-4cc9-8f5e-f5420f72abc4)
+![image](https://github.com/user-attachments/assets/bffa6522-b090-4d22-83a8-29a36a1be6d9)
+
 
 
