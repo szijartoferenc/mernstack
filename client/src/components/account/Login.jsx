@@ -4,6 +4,7 @@ import { FaEye, FaEyeSlash } from 'react-icons/fa';
 import { API } from '../../service/api';
 import { DataContext } from '../../context/DataProvider';
 import { useNavigate } from 'react-router-dom';
+import blogImage from './blog.png';
 
 const Component = styled(Box)`
     width: 400px;
@@ -70,7 +71,7 @@ const signupInitialValues = {
 };
 
 const Login = ({ isAuthenticated }) => {
-    const imageURL = 'blog.png';
+    const imageURL = blogImage;
     const [account, toggleAccount] = useState('login');
     const [signup, setSignup] = useState(signupInitialValues);
     const [login, setLogin] = useState(loginInitialValues);
