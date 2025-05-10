@@ -40,7 +40,7 @@ const LoginButton = styled(Button)`
 const SignupButton = styled(Button)`
     text-transform: none;
     background: #fff;
-    color: #2874f0;
+    color: #27AE60;
     height: 48px;
     border-radius: 2px;
     box-shadow: 0 2px 4px 0 rgb(0 0 0/ 20%);
