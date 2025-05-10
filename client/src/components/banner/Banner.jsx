@@ -1,7 +1,7 @@
 import { Box, Typography, styled } from '@mui/material';
 
 const Image = styled(Box)`
-    background: url(https://www.shutterstock.com/image-photo/workplace-winter-background-keayboard-notebook-260nw-713073412.jpg) center/cover no-repeat #000;
+    background: url(https://www.shutterstock.com/image-photo/workplace-winter-background-keayboard-notebook-260nw-713073412.jpg) center/55% cover no-repeat #000;
     width: 100%;
     height: 50vh;
     display: flex;
